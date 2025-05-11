@@ -6,8 +6,13 @@ drawing_board.title("Kare Cizimi")
 turtle_instance = turtle.Turtle()
 
 for i in range(5):
+
+    turtle_instance.color("red")
+    turtle_instance.speed(3)
     turtle_instance.forward(200)
     turtle_instance.right(144)
+
+
 
 '''
 turtle_instance.forward(100)
