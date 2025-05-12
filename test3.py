@@ -8,7 +8,7 @@ if not os.path.exists("TestFolder"):
     print("TestFolder klasörü oluşturuldu.")
 
 # 2. test1.py ve test2.py dosyalarını TestFolder/ klasörüne taşı
-dosyalar = ["test 1.py", "test2.py"]
+dosyalar = ["test  1.py", "test2.py"]
 
 for dosya in dosyalar:
     if os.path.exists(dosya):
